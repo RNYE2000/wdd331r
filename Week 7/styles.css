@@ -1,0 +1,59 @@
+html, body{
+    width: 100%;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    margin: 0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.alert-container{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 15px;
+}
+
+.alert-container p{
+    height: 100%;
+}
+
+.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+.alert h3{
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type:none;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+ul li:before{
+    content: "➤";
+}
+
+h1,h2{
+    font-family: "Recursive" , monospace;
+    
+}

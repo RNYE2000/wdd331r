@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
-
 html, body{
     width: 100%;
     padding: 0;
@@ -12,7 +10,7 @@ h1 {
     font-size: 64px;
     text-align: center;
     font-weight: 600;
-    font-family: 'Lora', serif;
+    font-family: "Recursive", monospace;
 }
 
 h1 > a {
@@ -28,7 +26,7 @@ nav {
     border-top: 1px solid #d0d0d0;
     border-bottom: 1px solid #d0d0d0;
     text-align: center;
-    font-family: 'Lora', serif;
+    font-family: 'Recursive', monospace;
 }
 
 nav > ul {
